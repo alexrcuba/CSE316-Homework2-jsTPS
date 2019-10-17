@@ -1,0 +1,45 @@
+#MainTesting{
+    display: grid;
+}
+#assertion_title_div_add {
+    float: left;
+    width: 16.5%;
+    font-size: 10pt;
+    padding: 10px;    
+    box-sizing: border-box;
+}
+#assertion_title_div_and {
+    float: left;
+    width: 16.5%;
+    font-size: 10pt;
+    padding: 10px;    
+    box-sizing: border-box;
+}
+#assertion_title_div_or {
+    float: left;
+    width: 16.5%;
+    font-size: 10pt;
+    padding: 10px;    
+    box-sizing: border-box;
+}
+#assertion_title_div_redo {
+    float: left;
+    width: 16.5%;
+    font-size: 10pt;
+    padding: 10px;    
+    box-sizing: border-box;
+}
+#assertion_title_div_undo {
+    float: left;
+    width: 16.5%;
+    font-size: 10pt;
+    padding: 10px;    
+    box-sizing: border-box;
+}
+#assertion_title_div_clear {
+    float: left;
+    width: 16.5%;
+    font-size: 10pt;
+    padding: 10px;    
+    box-sizing: border-box;
+}
