@@ -9,4 +9,6 @@ window.onload = function() {
     jTus.testUndo();
     jTus.testRedo();
     jTus.testClear();
+    let control = document.getElementById("submit_button");
+    control.addEventListener("click", function(){jTs.main()});
 }

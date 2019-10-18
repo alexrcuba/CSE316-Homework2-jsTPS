@@ -194,11 +194,11 @@ export default class jsTPS {
      * @return A textual summary of the TPS.
      */
     toString() {
-        let text = "--Number of Transactions: " + transactions.size() + "\n";
-        text += "--Current Index on Stack: " + mostRecentTransaction + "\n";
+        let text = "--Number of Transactions: " + this.transactions.length + "\n";
+        text += "--Current Index on Stack: " + this.mostRecentTransaction + "\n";
         text += "--Current Transaction Stack:\n";
-        for (let i = 0; i <= mostRecentTransaction; i++) {
-            let jT = transactions.get(i);
+        for (let i = 0; i <= this.mostRecentTransaction; i++) {
+            let jT = this.transactions[i];
             text += "----" + jT.toString() + "\n";
         }
         return text;
